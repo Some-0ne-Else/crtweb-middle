@@ -25,6 +25,7 @@ export const fetchFlats = () => (dispatch) => {
     .catch((err) => {
       dispatch({
         type: GET_FLATS_FAILED,
+      // eslint-disable-next-line no-console
       }); console.log(err);
     });
 };
