@@ -12,7 +12,7 @@ function App() {
   return (
     <div className={styles.app}>
       <header className={styles.app__header} />
-      <main>
+      <main className={styles.main}>
         <FlatList />
       </main>
     </div>
